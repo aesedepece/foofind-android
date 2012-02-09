@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="30dip"
+	android:paddingTop="10dip"
+    android:background="#FFFFFFFF"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:layout_gravity="center"
+    >
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical"
+		android:layout_gravity="center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingBottom="10px">
+			<ImageView android:id="@+id/logo"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/logo">
+			</ImageView>
+			<TextView android:id="@+id/want_that_file"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="right"
+			android:layout_marginTop="-30dip"
+			android:text="@string/want_that_file">
+			</TextView>
+		</LinearLayout>
+		<EditText
+		android:id="@+id/searchbox"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:maxLines="1"
+		android:layout_marginTop="10dip"
+		android:hint="@string/placeholder"
+		android:inputType="text"
+		>
+		</EditText>
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1">
+				<Button android:text="@string/typeandsource"
+				android:id="@+id/typeandsourcebutton"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				</Button>
+				
+			</LinearLayout>
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+				<Button android:text="@string/search_button"
+				android:id="@+id/searchbutton"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"
+				android:hapticFeedbackEnabled="true">
+				</Button>
+			</LinearLayout>
+		</LinearLayout>
+
+
+</LinearLayout>
+
+</LinearLayout>

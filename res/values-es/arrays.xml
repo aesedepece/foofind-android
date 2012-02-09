@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="filetypes_names">
+        <item>Todos</item>
+        <item>Audio</item>
+        <item>Video</item>
+        <item>Imagen</item>
+        <item>Documento</item>
+        <item>Software</item>
+        <item>Paquete</item>
+    </string-array>
+</resources>

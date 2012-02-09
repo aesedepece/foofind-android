@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+	<PreferenceCategory android:title="@string/filetype_selection">
+		<ListPreference
+	           android:title="@string/filetype"
+	           android:key="filetype"
+	           android:defaultValue="All"
+	           android:entries="@array/filetypes_names"
+	           android:entryValues="@array/filetypes"
+	           android:summary=""/>	    
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/sources_selection">
+		<CheckBoxPreference
+			android:key="all"
+			android:title="@string/all"
+			android:summary="@string/allsources_summary"
+			android:defaultValue="true" 
+			android:disableDependentsState="true" />
+		<CheckBoxPreference
+			android:key="dd"
+			android:title="@string/dd"
+			android:summary="@string/dd_summary"
+			android:defaultValue="false"
+			android:dependency="all" />
+		<CheckBoxPreference
+			android:key="torrents"
+			android:title="@string/torrents"
+			android:summary="@string/torrents_summary"
+			android:defaultValue="false"
+			android:dependency="all" />
+		<!--<CheckBoxPreference
+			android:key="streaming"
+			android:title="@string/streaming"
+			android:summary="@string/streaming_summary"
+			android:defaultValue="false"
+			android:dependency="all" />-->
+		<CheckBoxPreference
+			android:key="gnutella"
+			android:title="@string/gnutella"
+			android:summary="@string/not_implemented"
+			android:defaultValue="false"
+			android:dependency="all"
+			android:selectable="false"/>
+		<CheckBoxPreference
+			android:key="ed2k"
+			android:title="@string/ed2k"
+			android:summary="@string/not_implemented"
+			android:defaultValue="false"
+			android:dependency="all"
+			android:selectable="false"/>
+	</PreferenceCategory>
+</PreferenceScreen>

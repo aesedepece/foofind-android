@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="#FF000000"
+>
+  	<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+		<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="#FFE1007A"
+		android:padding="5dip">
+			<TextView android:text="@string/showing_results_for"
+			android:id="@+id/search_results_label"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textStyle="bold"
+			android:textColor="#FFFFFFFF">
+			</TextView>
+			<TextView android:text=""
+			android:id="@+id/search_results_query"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textStyle="bold"
+			android:textColor="#FFFFFFFF">
+			</TextView>
+			<TextView android:text=""
+			android:id="@+id/search_results_amount"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textStyle="bold"
+			android:textColor="#FFFFFFFF">
+			</TextView>
+		</LinearLayout>
+		<TextView android:layout_width="wrap_content"
+		android:id="@+id/no_results"
+		android:layout_height="wrap_content"
+		android:text=""
+		android:padding="10dip">
+		</TextView>
+		<ScrollView	android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+			<LinearLayout
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/results_list"
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:padding="10dip">
+			
+</LinearLayout>
+</ScrollView>	
+	</LinearLayout>
+</LinearLayout>

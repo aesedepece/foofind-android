@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">foofind</string>
+<string name="want_that_file">Quiero.Ese.Archivo</string>
+<string name="files_indexed">archivos indexados</string>
+<string name="placeholder">Escribe aquí tu búsqueda...</string>
+<string name="typeandsource">Tipos y orígenes...</string>
+<string name="search_button">Buscar</string>
+<string name="filetype">Tipo de archivo</string>
+<string name="all">Todos</string>
+<string name="alltype_summary">Cualquier tipo</string>
+<string name="sources_selection">Elegir orígenes</string>
+<string name="allsources_summary">Cualquier fuente</string>
+<string name="dd">Descargas directas</string>
+<string name="dd_summary">Portales de descarga como megaupload or rapidshare</string>
+<!-- <string name="torrents">Torrents</string> -->
+<string name="torrents_summary">Trackers como thepiratebay o mininova</string>
+<string name="streaming">Streaming</string>
+<string name="streaming_summary">Sitios de streaming como megavideo</string>
+<!-- <string name="gnutella">Gnutella</string>  -->
+<string name="gnutella_summary">Archivos de la red Gnutella</string>
+<!-- <string name="ed2k">Ed2k</string> -->
+<string name="ed2k_summary">Archivos de la red Ed2k</string>
+<string name="filetype_selection">Elegir el tipo de archivo</string>
+<!-- <string name="audio">Audio</string>
+<string name="video">Video</string>
+<string name="image">Imagen</string> -->
+<string name="document">Documento</string>
+<string name="software">Software</string>
+<string name="archive">Paquete</string>
+
+<string name="searching">Buscando...</string>
+<string name="search_results">Resultados de Búsqueda</string>
+<string name="showing_results_for">Mostrando resultados para</string>
+<string name="no_results">No se encontró ningún resultado</string>
+<string name="missing_size">(Tamaño desconocido)</string>
+<string name="no_description">Sin descripción</string>
+<string name="please_wait">Espere, por favor...</string>
+
+<string name="settings">Ajustes</string>
+<string name="credits">Créditos</string>
+<string name="quit">Salir</string>
+
+<string name="credits_text">© 2011 Adán Sánchez de Pedro Crespo. Código fuente bajo licencia GPLv3.
+	\n\n\"foofind\" es una marca registrada de Foofind Labs, S.L.
+	\n\nIconos de menú por <a href="http://androidicons.com/">Guenther Beyer</a> y publicados bajo Licencia Creative Commons Attribution 3.0 Unported.
+</string>
+
+<string name="account_settings">Opciones de cuenta</string>
+<string name="results_settings">Opciones de resultados</string>
+<string name="max_results">Máximo nº de resultados</string>
+<string name="not_implemented">Función no implementada aún</string>
+
+</resources>
